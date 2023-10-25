@@ -1,0 +1,34 @@
+Theme_Component As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Theme_Label As label:
+        BorderColor: =RGBA(255, 192, 192, 1)
+        BorderThickness: =4
+        Fill: =Theme_Color_Medium
+        Height: =70
+        Size: =21
+        Text: ="Text"
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =1
+        Height: =70
+        OnTimerStart: |-
+            =Set(Theme_Color_Light, RGBA(240, 240, 240, 1));
+            Set(Theme_Color_Dark, RGBA(92, 92, 92, 1));
+            Set(Theme_Color_Medium, RGBA(160, 160, 160, 1));
+        Start: =true
+        Width: =280
+        X: =60
+        Y: =70
+        ZIndex: =2
+

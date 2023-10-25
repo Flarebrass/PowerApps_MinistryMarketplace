@@ -1,0 +1,57 @@
+{
+  "4952e4db-1bff-4b77-a2a9-32deb0a50437": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://awmicharis.sharepoint.com/sites/IntranetHub": {
+        "dataSources": {
+          "Staff Directory": {
+            "tableName": "eb838edc-ab55-49c1-9493-356927512434"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Staff Directory"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4952e4db-1bff-4b77-a2a9-32deb0a50437"
+  },
+  "b51856b2-ae6d-4aa2-9ee5-312082784937": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://awmicharis.sharepoint.com/sites/TestBuilds3": {
+        "dataSources": {
+          "PowerApps controls": {
+            "tableName": "8c719d95-85f7-45db-ae22-da7dc89efb0c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "PowerApps controls"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b51856b2-ae6d-4aa2-9ee5-312082784937"
+  }
+}
